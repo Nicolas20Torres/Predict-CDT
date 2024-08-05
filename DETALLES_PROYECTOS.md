@@ -30,7 +30,7 @@ class DatabaseManager:
         if self.conn:
             self.conn.close()
             print('Conexion a las base de datos cerrada')
-
+```
 
 Una vez creada la clase se hace uso para generar los cargue a las tablas usando los datos de los archivos csv de la siguiente forma
 ```python
@@ -49,3 +49,4 @@ df_qualitative = pd.read_csv(RT.Qualitative,encoding='utf-8',sep=',')
 # Conexion a base de datos SQL
 df_qualitative.to_sql('Qualitative',conn,if_exists='replace',index=False)
 df_campanas.to_sql('Campanas',conn,if_exists='replace',index=False)
+```
