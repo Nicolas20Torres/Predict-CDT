@@ -1,6 +1,6 @@
 # Predict-CDT
-EL proyecto constan de varios pasos dentro de los cuales es encuenta llevar los archivos planos en formato csv descargados de Kaggle y generar una base de datos usado SQLLite3 de pandas usando la clase ```DataBAseManager´´´
-Se crear la clases que generan las tablas y la estructura de las mismas
+EL proyecto constan de 3 pasos fundamentales, dentro de los cuales se encuentra llevar los archivos planos en formato csv descargados de Kaggle a una base de datos usado SQLLite3 de pandas mediante la clase DataBAseManager que carga los registros a la bases BaseDatosSQL.db
+
 ```python
 # Importacion recursos
 import sqlite3
@@ -32,7 +32,8 @@ class DatabaseManager:
             print('Conexion a las base de datos cerrada')
 ```
 
-Una vez creada la clase se hace uso para generar los cargue a las tablas usando los datos de los archivos csv de la siguiente forma
+La clase DataBaseManager crea las tablas son su estructura y hace posible cargar los datos a la base mediante el script de python template.py como se muestra en el ejemplo
+
 ```python
 # Importacion de recursos
 from config.parametros import RutaDataSet as RT
