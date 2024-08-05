@@ -1,5 +1,5 @@
 # Predict-CDT
-EL proyecto constan de varios pasos dentro de los cuales es encuenta llevar los archivos planos en formato csv descargados de Kaggle y generar una base de datos usado SQLLite3 de pandas. 
+EL proyecto constan de varios pasos dentro de los cuales es encuenta llevar los archivos planos en formato csv descargados de Kaggle y generar una base de datos usado SQLLite3 de pandas usando la clase ```DataBAseManager´´´
 Se crear la clases que generan las tablas y la estructura de las mismas
 ```python
 # Importacion recursos
