@@ -32,7 +32,7 @@ class DatabaseManager:
             print('Conexion a las base de datos cerrada')
 ```
 
-La clase DataBaseManager crea las tablas son su estructura y hace posible cargar los datos a la base mediante el script de python template.py como se muestra en el ejemplo
+La clase DataBaseManager crea las tablas con su estructura y hace posible cargar los datos a la base mediante el script de python template.py como se muestra en el ejemplo
 
 ```python
 # Importacion de recursos
