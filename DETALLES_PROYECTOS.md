@@ -51,3 +51,10 @@ df_qualitative = pd.read_csv(RT.Qualitative,encoding='utf-8',sep=',')
 df_qualitative.to_sql('Qualitative',conn,if_exists='replace',index=False)
 df_campanas.to_sql('Campanas',conn,if_exists='replace',index=False)
 ```
+
+Una vez concluida la carga de los registros a la base de datos se da inicio al analisis exploratorio ver archivo 1.Analisis_Exploratorio.ipynb el cual detalla el proceso de analisis exploratorio. posteriormente se ejecuta el proprocesamiento de los datos ver 2.Preprocesamiento.ipynb y finalmente se emplean 3 modelos:
+1. Regresion Logistica: Area bajo la curva de 0.78 
+2. Arbol de decision
+3. Red Neuronal con Keras
+
+
